@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, error in VBScript's error handling. The `bug.vbs` file showcases a function that attempts to handle empty parameters using `Err.Raise`. However, this approach can be problematic. The `bugSolution.vbs` demonstrates improved error handling using structured exception handling.
